@@ -3,6 +3,16 @@ Challenge 20 for UC Berkeley Data Analytics Bootcamp
 
 ![importer-credit-score-system](https://github.com/Ever30/credit-risk-classification/assets/149534473/3882a9fc-9f05-462d-8379-fcdacc05e770)
 
+# Report
+
+## Analysis
+  - The purpose of this activity was to build a model that can identify the creditworthiness of borrowers.
+  - The CVS file contains different information like "loan_size", interest_rate", "borrower_income", "num_of_accounts", "derogatory_marks", "total_debt", and "loan_status". With all this information I have to create and evaluate the model's performance by generating a confusion matrix and print the classification report.
+  - first I read the CSV file and saved it in the variable "df", after that, I separated the data into labels ("X" and "y". ).
+  - From "sklearn" I imported "train_test_split", with the purpose of splitting the data into training and testing. Once I did that, from the same library I imported "LogisticRegression" to be able to start the model and give it a random state. After that, I fit the model using training data. I  predicted the model using testing data.
+  - Finally, I generated the confusion matrix and printed the classification report. 
+    
+
 ## Instructions
 
 The instructions for this Challenge are divided into the following subsections:
