@@ -10,8 +10,21 @@ Challenge 20 for UC Berkeley Data Analytics Bootcamp
   - The CVS file contains different information like "loan_size", interest_rate", "borrower_income", "num_of_accounts", "derogatory_marks", "total_debt", and "loan_status". With all this information I have to create and evaluate the model's performance by generating a confusion matrix and print the classification report.
   - first I read the CSV file and saved it in the variable "df", after that, I separated the data into labels ("X" and "y". ).
   - From "sklearn" I imported "train_test_split", with the purpose of splitting the data into training and testing. Once I did that, from the same library I imported "LogisticRegression" to be able to start the model and give it a random state. After that, I fit the model using training data. I  predicted the model using testing data.
-  - Finally, I generated the confusion matrix and printed the classification report. 
-    
+  - Finally, I generated the confusion matrix and printed the classification report.
+
+## Results
+
+  - For healthy loans (0), we have perfect precision  with a value of 1.00, recall of 0.99, f1-score of 1.00, and support of 18765.
+    - This is the most reliable of both because we have scored almost perfectly and we have good information support.
+   
+  - For high-risk loans (1), compared to  healthy loans, here we have a precision of 0.85, a recall of 0.91, an f1-score of 0.88, and support of 619.
+    - Still, here we have good values but not as good as healthy loans, especially since in this section, we only have 619 supporting information.
+   
+## Summary
+
+  - At the end of all this, I could say that I recommend using model 0 (healthy loan) because it is the one that has the best results and good support, but as Adrián said, when you have something almost perfect, sometimes it is too good to be true.
+  
+  - For model 1 (high-risk loan), even though we have overall good values, I will not recommend it because we do not have enough supporting information (compared to model 0)
 
 ## Instructions
 
