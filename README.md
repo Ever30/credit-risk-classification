@@ -26,6 +26,9 @@ Challenge 20 for UC Berkeley Data Analytics Bootcamp
   
   - For model 1 (high-risk loan), even though we have overall good values, I will not recommend it because we do not have enough supporting information (compared to model 0)
 
+
+
+
 ## Instructions
 
 The instructions for this Challenge are divided into the following subsections:
